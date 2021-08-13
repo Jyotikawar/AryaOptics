@@ -1,0 +1,397 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Proxima";
+  /* width: 100vw; */
+}
+body, html{
+  overflow-x: hidden;
+}
+
+/* navigation bar  */
+.carousel-item{
+  height: 650px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 700;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+background-color: rgba(135,167,166,0.97);
+width: 100vw;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  font-weight: 400;
+}
+/* signup login button */
+ .login-reg{
+  color: white !important;
+  background: rgba(135,167,166,0.97) !important;
+  border-color: rgba(135,167,166,0.97) !important;
+  font-size: 1.2rem;
+
+}
+
+
+button.btn.btn-primary.SignUp:hover{
+  border: 2px solid white;
+}
+button.btn.btn-primary.login:hover{
+  border: 2px solid white;
+}
+
+
+
+/* carousel */
+.carousel-img{
+  position: absolute;
+  z-index: 2rem;
+
+}
+
+.carousel-text{
+  position: absolute;
+  z-index: 0;
+  margin: 15% 60%;
+}
+
+.carousel-text h1{
+  font-size: 6rem;
+}
+
+.carousal-2{
+    margin: 100px 100px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.carousel-3{
+  margin:130px 20px;
+  text-align: center;
+}
+@media only screen and (max-width:1000px) {
+  .carousel-text h1{
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .carousel-text h1{
+    font-size: 40px;
+  }
+}
+
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5 %;
+}
+.feature-box i{
+  color: black;
+}
+.feature-box i:hover{
+  color: rgba(135,167,166,0.97);
+}
+
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: black;
+}
+span{
+  color: white;
+  margin: 1.5rem;
+}
+/* testimonial section with cards */
+.box{
+  /* margin: 1px; */
+  border: 2px solid black;
+  text-align: center;
+  padding: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+
+}
+.testimonial{
+margin: 1rem 7rem;
+
+}
+.cards{
+  background-color: rgba(135,167,166,0.97);
+  padding: 2rem 0rem;
+  width: 100vw;
+
+}
+/* search here */
+.maps{
+  background-color: rgba(135,167,166,0.97);
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 500;
+  width: 30vw;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* footer section */
+#footer{
+  background: rgba(135,167,166,0.97);
+  text-align: center;
+  padding: 7% 15%;
+  position: absolute;
+  /* top: 73vh */
+  margin-top: 1rem;
+  width: 100vw;
+
+}
+.ficon{
+  margin: 1% 1%;
+}
+
+.footer p{
+  color: white;
+  /* text-align: center; */
+}
+
+
+
+
+
+/* sunglasses */
+
+.image {
+    width: 65%;
+    margin: 0.2rem;
+}
+.image:hover{
+ border: 2px solid rgba(135,167,166,0.97);
+;
+ width: 66%;
+}
+.product{
+  width: 30%;
+  text-align: center;
+  /* margin-top: 2rem; */
+  /* border: 2px solid black; */
+  margin: 10px;
+  }
+
+  /* .product:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+  } */
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.button{
+  background-color: black;
+  border:none;
+  cursor: pointer;
+  border-radius: 16px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  margin:auto;
+}
+.button:hover{
+border: 2px solid black;
+
+}
+
+.details{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: gray;
+}
+
+/* sglass section */
+
+.sglass{
+  display: flex;
+  margin: 7rem 9rem;
+}
+
+.sglass-img img{
+  width: 50%;
+}
+
+
+
+
+.container {
+   align-items: center;
+   margin: auto;
+ }
+
+ .contact-us {
+   /* background: url("/images/contact.jpg");
+   background-position: top;
+   background-size: cover;
+   background-repeat: no-repeat; */
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+ }
+
+
+ .field input {
+   margin: 10px 10px;
+   text-align: left;
+   padding: 10px 10px;
+   width: 70%;
+   border-radius: 10px;
+   background-color: rgb(135 167 166 / 22%);
+   border: 2px solid black;
+   color: #E96656;
+ }
+
+ .message {
+   width: 70%;
+   margin-left: 10px;
+   border-radius: 10px;
+   margin: 10px 10px;
+   background-color: rgb(135 167 166 / 22%);
+   border: 2px solid black;
+   color: #E96656;
+ }
+
+ .form_btn {
+   /* margin: 0px 120px; */
+   width: 70%;
+   /* margin-left: 0.6rem; */
+   border-radius: 10px;
+   height: 50px;
+   background-color: rgb(135 167 166 / 22%);
+   border: 2px solid black;
+      font-size: 1.5rem;
+   font-weight: 500;
+   color: #E96656;
+
+ }
+
+ .form_btn:hover {
+   background-color: white;
+   color: black;
+   font-size: 1.3rem;
+ }
+
+ ::placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #E96656  ;
+   opacity: 1;
+   /* Firefox */
+   font-size: 1.3rem;
+ }
+
+ :-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: white;
+ }
+
+ ::-ms-input-placeholder {
+   /* Microsoft Edge */
+   color: white;
+ }
+
+ .contact-detail .info {
+   font-size: 1.3rem;
+   font-weight: 500;
+   padding: 15px 15px;
+   line-height: 2rem;
+   color: #E96656;
+ }
+
+ .form p {
+   color: #E96656;
+   /* margin-left: 5rem; */
+   font-size: 2rem;
+   font-weight: 500;
+ }
+ .row{
+   margin: auto!important;
+   justify-content: center!important;
+ }
+.row>* {
+  text-align: center;
+}
+ /* contact section media query */
+ @media only screen and (max-width: 992px) {
+   .contact-detail {
+     /* background-color: lightblue; */
+     text-align: center;
+   }
+ }
+
+ @media only screen and (max-width: 992px) {
+   .form {
+     /* background-color: lightblue; */
+     text-align: center;
+   }
+
+   .form p {
+     display: none;
+     margin-top: 100px;
+   }
+   hr{
+     display: none;
+   }
+ }
+
+
+
+
+/* register page */
+.register-box{
+  width: 35vw;
+  border: 2px solid black;
+  background-color: #ffffff;
+}
+.container h1{
+  text-align: center;
+}
+.google{
+  margin: 1rem 0;
+}
+.card{
+  margin: 1rem;
+}
+.form-control{
+  margin: 1rem;
+}
+.register{
+/* background-color: blue; */
+ background: url("/images/contact.jpg");
+ background-position: top;
+ background-size: cover;
+ background-repeat: no-repeat; 
+
+}

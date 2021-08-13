@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AryaOptics | Eyeglasses</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <%- include('./partials/bootstrap.ejs') %>
+
+  </head>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+
+    <div id="container">
+    <% items.forEach(item=>{ %>
+      <div class="product">
+
+        <img src="<%=item.src%>"></img>
+
+        <p class="details"><%=item.name%><p>
+
+        <p class="details"><%=item.price%></p>
+
+        <a class="button" href="/eyeglasses/<%=item.id%>">View Product</a>
+
+      </div>
+    <% }) %>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact us</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script> -->
+  <link rel="stylesheet" href="/css/style.css">
+  <%- include('./partials/bootstrap.ejs') %>
+
+</head>
+
+
+<body>
+  <%- include('./partials/nav.ejs') %>
+
+<div class="contact-us">
+
+  <!-- <h1>contact Us</h1> -->
+  <div class="row container">
+    <div class="col-lg-6  order-sm-last contact-detail">
+
+      <i class="fas fa-map-marker-alt"></i> <span class="address info">Navi mumbai, 400701</span><br>
+      <i class="fas fa-phone-alt"></i> <span class="phone info">Mobile No. 9892######</span><br>
+      <i class="fas fa-envelope"></i> <span class="gmail info">jyotikawar2@gmail.com</span><br>
+
+    </div>
+    <div class="col-lg-6 order-sm-first form">
+      <p>Contact Us</p>
+      <hr>
+      <form class="field" action="index.html" method="post">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="emailid" placeholder="Email Id" required><br>
+        <!-- <input type="text" name="name" placeholder="Message" required> -->
+        <textarea class="message" name="message" placeholder="Message" rows="8" cols="40" required></textarea><br>
+        <button class="form_btn" type="submit" name="button">Submit</button>
+      </form>
+
+    </div>
+  </div>
+  <%- include('./partials/footer.ejs') %>
+
+
+</div>
+
+  <!-- bootstrap js scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

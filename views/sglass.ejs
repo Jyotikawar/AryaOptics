@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <%- include('./partials/bootstrap.ejs') %>
+    <%- include('./partials/icon.ejs') %>
+
+  </head>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+
+    <div class="sglass">
+      <div class="sglass-img">
+        <img src="/images/sunglasses/<%=item.imgpath%>.jpeg"></img>
+
+      </div>
+      <div class="info">
+        <p class="details">Name <%=item.name%></p>
+        <p class="details">Price <%=item.price%></p>
+        <p class="details">Width <%=item.width%></p>
+        <p class="details">Length <%=item.length%></p>
+        <p class="details">Height <%=item.height%></p>
+        <p class="details">Colors <%=item.colors%></p>
+        <p class="details">Rating <%=item.rating%></p>
+        <p class="details">Reviews<%=item.reviews%></p>
+        <p class="details">Tinge <%=item.tinge%></p>
+      </div>
+
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+
+  </body>
+</html>
