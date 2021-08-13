@@ -28,6 +28,10 @@ mongoose.connect(dbURI,{useNewUrlParser:true, useUnifiedTopology:true})
   console.log(err)
 })
 
+app.get('/', (req, res)=>{
+  res.redirect('/home')
+})
+
 //HOME
 app.get('/home',(req,res)=>{
   res.render('home')
